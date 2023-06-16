@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="output.css">
+  <script src="https://kit.fontawesome.com/7666dfc9fb.js" crossorigin="anonymous"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+       font-size: 11px; text-align: center; 
+       font-size: 14px;
+       font-family: 'Fraunces', serif;
+       font-family: 'Montserrat', sans-serif;
+       
+      }
+    .attribution a { color: hsl(228, 45%, 44%); 
+    }
+  </style>
+</head>
+<body class="bg-cream sm:flex sm:justify-center sm:items-center sm:h-screen">
+<main>
+  <section class="mt-4">
+    <article class="w-11/12 mx-auto bg-white rounded-lg h-11/12 sm:grid sm:grid-cols-2 sm:max-w-[690px] sm:max-h-[510px]">
+      <div class="rounded-t-lg">
+        <figure>
+          <picture>
+            <source srcset="images/image-product-desktop.jpg" media="(min-width:700px)">
+            <img class="rounded-tl-lg rounded-tr-lg sm:rounded-tr-none sm:rounded-bl-lg sm:h-[510px]" src="images/image-product-mobile.jpg" alt="image-">
+          </picture>
+         
+        </figure>
+      </div>
+
+      <div class="pb-2 rounded-b-lg">
+        <h2 class="mt-6 ml-4 tracking-[5px] font-montserrat uppercase text-lightBlue sm:pt-2 sm:ml-8">Perfume</h2>
+        <h1 class="text-[2.3rem] font-fraunces leading-[1.2] ml-5 mt-3 sm:w-5/6 sm:ml-8 ">Gabrielle Essence Eau De Parfum</h1>
+        <p class="pr-4 ml-5 text-[1.1rem] mt-4 font-montserrat text-lightBlue mb-4 sm:ml-8 sm:w-5/6 sm:mt-5"> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.</p>
+          <div class="flex items-center">
+            <span class="font-fraunces text-4xl text-green ml-5 sm:ml-8">$149.99</span>
+          <span class="ml-4 font-montserrat line-through text-lightBlue">$169.99</span>
+          </div>
+          <button class=" font-montserrat font-[500] block w-11/12 h-14 rounded-xl bg-green  text-white mb-4 mt-6 mx-auto hover:bg-darkBlue sm:w-10/12 sm:ml-8 sm:mb-10"> <span class="fa-solid  fa-cart-shopping mr-2 "></span>Add to Cart</button>
+      </div>
+    </article>
+  </section>
+</main>
+
+</body>
+</html>

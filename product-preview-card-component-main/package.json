@@ -1,0 +1,11 @@
+{
+  "name": "card-component",
+  "version": "1.0.0",
+  "description": "it is a frontend mentor project",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i input.css -o output.css --watch"
+  },
+  "author": "devjhex",
+  "license": "ISC"
+}
