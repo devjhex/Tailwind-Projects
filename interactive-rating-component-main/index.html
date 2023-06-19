@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="output.css">
+  </style>
+</head>
+<body class="bg-darkBlue flex justify-center items-center h-screen font-base">
+<main>
+  <section>
+     <!-- Rating state start -->
+    <article class="bg-[#18212cdf] max-w-[85%] sm:max-w-[400px] h-auto mx-auto rounded-2xl pt-6 pb-10 sm:rounded-[2rem] rating">
+      <div class="bg-[#50545b38] w-max  ml-6 p-3 rounded-full">
+        <img src="/images/icon-star.svg" alt="star-icon">
+      </div>
+      <h1 class="text-white ml-6 mt-5 text-3xl font-semibold">How did we do?</h1>
+      <p class="text-lightGrey ml-6 mt-4 w-[90%]">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+        <div class="text-white mt-7 mx-auto w-11/12 flex justify-around">
+          <button class="bg-[#6e747e72] rounded-full w-10 h-10 text-lightGrey hover:bg-midGrey hover:text-white sm:w-11 sm:h-11 button">1</button>
+          <button class="bg-[#6e747e72] rounded-full w-10 h-10 text-lightGrey hover:bg-midGrey hover:text-white sm:w-11 sm:h-11 button">2</button>
+          <button class="bg-[#6e747e72] rounded-full w-10 h-10 text-lightGrey hover:bg-midGrey hover:text-white sm:w-11 sm:h-11 button">3</button>
+          <button class="bg-[#6e747e72] rounded-full w-10 h-10 text-lightGrey hover:bg-midGrey hover:text-white sm:w-11 sm:h-11 button">4</button>
+          <button class="bg-[#6e747e72] rounded-full w-10 h-10 text-lightGrey hover:bg-midGrey hover:text-white sm:w-11 sm:h-11 button">5</button>
+        </div>
+
+        <button class="bg-orange  rounded-[2rem]  block mx-auto mt-7 h-14 sm:h-12 w-[85%] text-white uppercase font-semibold tracking-[2px] hover:bg-white hover:text-orange submit">Submit</button>
+    </article>
+      <!-- Ratng state end -->
+
+     <!-- Thank you state start -->
+    <article class="hidden bg-[#18212cdf] max-w-[85%] sm:max-w-[400px] h-auto mx-auto rounded-2xl pt-6 pb-10 sm:rounded-[2rem] thanks">
+      <div class= "w-max mx-auto mb-6">
+        <img src="/images/illustration-thank-you.svg" alt="star-icon">
+      </div>
+      <p class="text-center bg-[#50545b38] w-max mx-auto rounded-2xl text-orange px-4 pt-1 h-8 thanksText">You selected 4 out of 5</p>
+      <h1 class="text-center text-white ml-6 mt-6 text-3xl font-semibold">Thank you!</h1>
+      <p class="text-center text-lightGrey ml-6 mt-4 w-[90%]"> We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+    </article>
+    <!-- Thank you state end -->
+  </section>
+</main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
