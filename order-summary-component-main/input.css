@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'bodyFont';
+    src: url('./fonts/RedHatDisplay-VariableFont_wght.ttf');
+}
+
