@@ -1,0 +1,11 @@
+{
+  "name": "nft-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "A frontend mentor project",
+  "main": "index.js",
+  "scripts": {
+    "test": "tailwindcss -i input.css -o output.css --watch"
+  },
+  "author": "devjhex",
+  "license": "ISC"
+}
