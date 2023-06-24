@@ -1,0 +1,11 @@
+{
+  "name": "stats-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "This is a frontendMentor project",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i input.css -o output.css --watch"
+  },
+  "author": "devjhex",
+  "license": "ISC"
+}

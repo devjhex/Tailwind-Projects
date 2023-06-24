@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'lexend';
+    src: url("./fonts/LexendDeca-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'inter';
+    src: url("./fonts/Inter-VariableFont_slnt\,wght.ttf");
+}

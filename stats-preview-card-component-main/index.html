@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="output.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-priMainBG sm:flex sm:items-center sm:justify-center sm:h-screen">
+  <main>
+    <section>
+      <article class="bg-priCardBG w-9/12 sm:flex sm:flex-row-reverse sm:items-center mx-auto mt-4 rounded-[10px] sm:h-[450px] ">
+        <div class="relative bg-[hsla(0,0%,0%)] rounded-[10px] sm:rounded-bl-none z-10 sm:w-1/2 sm:h-[450px]">
+          <img class="rounded-t-[10px] relative z-10 opacity-80 mb-8 sm:rounded-br-[10px] sm:rounded-tl-none sm:w-full sm:h-full" src="./images/image-header-mobile.jpg" alt="header-image">
+          <div class="w-full h-full bg-[#8a04de6e] rounded-[10px] sm:rounded-tl-none sm:rounded-bl-none absolute top-0 left-0 z-20"></div>
+        </div>
+        <div class="sm:w-1/2 sm:pr-4 min-w-min">
+          <h1 class="text-center text-3xl sm:text-4xl font-inter font-[700] w-[300px] mx-auto text-neuHeading sm:mt-10 sm:ml-16 sm:text-left sm:w-[400px]"> Get <span class="text-priAccent">insights</span> that help your business grow.</h1>
+          <p class="text-neuStatsHeading font-inter text-center w-4/5 md:w-8/12 mx-auto mt-4 leading-[1.8] sm:text-left sm:ml-16"> Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.</p>
+            <div class="mt-12 flex flex-col sm:flex-row items-center justify-center sm:justify-between pb-6 mb-8 sm:ml-16 sm:w-8/12">
+
+              <span class="flex flex-col items-center justify-center text-neuStatsHeading uppercase font-lexend text-[0.8rem] tracking-widest text-center">
+
+                <span class="text-3xl font-[700] text-neuHeading font-inter lowercase mb-1">10k+</span>
+                companies
+              </span>
+              <span class="flex flex-col items-center justify-center text-neuStatsHeading uppercase font-lexend text-[0.8rem] tracking-widest mt-7 sm:mt-0 text-center">
+
+                <span class="text-3xl font-[700] text-neuHeading font-inter lowercase mb-1"> 314</span>
+                templates
+              </span>
+              <span class="flex flex-col items-center justify-center text-neuStatsHeading uppercase font-lexend text-[0.8rem] tracking-widest mt-6 sm:mt-0 text-center">
+
+                <span class="text-3xl font-[700] text-neuHeading font-inter mb-1">12m+</span>
+                queries
+              </span>
+            </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+</body>
+</html>
