@@ -28,7 +28,7 @@ Users should be able to:
 ### Screenshot
 
 
-![My Screenshot](./design/desktop-preview.jpg)
+![My Screenshot](./design/Solution.png)
 
 ### Links
 - Live Site: [Live Site](https://devjhex-3-column-preview-card.netlify.app/)
