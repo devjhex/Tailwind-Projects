@@ -27,12 +27,10 @@ Users should be able to:
 ### Screenshot
 
 
-![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Order summary card coding challenge](./design/Solution.png)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site: [Live site](https://devjhex-order-summary.netlify.app/)
 
 ## My process
 
