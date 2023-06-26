@@ -28,12 +28,10 @@ Users should be able to:
 ### Screenshot
 
 
-![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
+![My Screenshot](./design/desktop-preview.jpg)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site: [Live Site](https://devjhex-3-column-preview-card.netlify.app/)
 
 ## My process
 
