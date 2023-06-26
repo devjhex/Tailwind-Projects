@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![My Solution](./design/Solution.png)
+![Solution](./design/Solution.png)
 
 ### Link
 - Live Site URL: [Live Site](https://devjhex-nft-card.netlify.app/)
