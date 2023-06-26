@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'spartan';
+    src: url('./fonts/LeagueSpartan-VariableFont_wght.ttf');
+}
+
+@layer components{
+    .rating{
+        @apply bg-neuLightMagenta rounded-xl flex items-center justify-center font-spartan flex-col h-[90px] pt-3 lg:pt-0 text-priMagenta font-[700] text-xl sm:text-center;
+    }
+}
