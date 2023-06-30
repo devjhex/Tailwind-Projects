@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="font-hanken">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="output.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+<body>
+  <main>
+    <section class="sm:flex sm:items-center sm:justify-center sm:flex-col sm:h-screen sm:mx-auto bg-neuWhite">
+      <article class="sm:flex sm:h-[440px] sm:drop-shadow-[5px_4px_24px_rgba(0,0,0,0.1)] bg-neuWhite sm:rounded-[2.4rem]">
+        <div class="bg-gradient-to-b from-gradSlateBG to-gradRoyalBG text-center p-8 sm:pb-5 rounded-b-[2.4rem] sm:rounded-[2rem] sm:w-[320px]">
+          <h2 class="text-neuLightLavender text-xl">Your Result</h2>
+          <div class="w-[150px] h-[150px] flex items-center flex-col justify-center text-center mx-auto bg-gradient-to-b from-gradVioletCIR to-gradPersianCIR rounded-full mt-5">
+            <span class="text-[3.2rem] text-neuWhite font-bold">76</span>
+            <span class="text-neuLightLavender">of 100</span>
+            
+          </div>
+          <h1 class="mt-3 sm:mt-5 text-2xl font-bold text-neuWhite">Great</h1>
+          <p class="w-9/12 sm:w-11/12  mx-auto mt-3 sm:mt-4 text-neuLightLavender"> You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+
+        <section class="px-7 py-6 bg-neuWhite sm:rounded-r-[2.4rem] sm:w-[330px]">
+          <h1 class="text-neuDarkBlue text-2xl font-[700]">Summary</h1>
+          <div class="mt-3">
+            <article class="flex items-center justify-between bg-[rgba(255,87,87,0.2)] p-4 rounded-[.6rem] mb-3">
+              <span class="flex text-priRed font-semibold"> <img class="mr-2" src="./assets/images/icon-reaction.svg" alt="reaction"> Reaction</span>
+              <span class="font-bold text-neuDarkBlue"> 80 
+                <span class="text-[rgba(120,120,146,0.71)]"> / 100</span>
+              </span>
+            </article>
+            <article class="flex items-center justify-between bg-[rgba(255,177,31,0.2)] p-4 rounded-[.6rem] mb-3">
+              <span class="flex text-priOrange font-semibold"> <img class="mr-2" src="./assets/images/icon-memory.svg" alt="memory">Memory</span>
+              <span class="font-bold text-neuDarkBlue">  92
+                <span class="text-[rgba(120,120,146,0.71)]"> / 100</span>
+              </span>
+            </article>
+            <article class="flex items-center justify-between bg-[rgba(0,189,145,0.2)] p-4 rounded-[.6rem] mb-3">
+              <span class="flex text-priGreen font-semibold"> <img class="mr-2" src="./assets/images/icon-verbal.svg" alt="verbal"> Verbal</span>
+              <span class="font-bold text-neuDarkBlue">61
+                <span class="text-[rgba(120,120,146,0.71)]">/ 100</span>
+              </span>
+            </article>
+            <article class="flex items-center justify-between bg-[rgba(17,36,212,0.2)] p-4 rounded-[.6rem] mb-3">
+              <span class="flex text-priBlue font-semibold"> <img class="mr-2" src="./assets/images/icon-visual.svg" alt="visual">Visual</span>
+              <span class="font-bold text-neuDarkBlue">  72
+                <span class="text-[rgba(120,120,146,0.71)]"> / 100</span>
+              </span>
+            </article>
+            <button class="bg-neuDarkBlue text-center w-full rounded-full p-4 sm:p-3 sm:mt-4 text-neuWhite font-bold text-xl hover:bg-gradient-to-b from-gradSlateBG to-gradRoyalBG">Continue</button>
+          </section>
+        </article>
+          </div>
+    </section>
+  </main>
+
+  
+</body>
+</html>
