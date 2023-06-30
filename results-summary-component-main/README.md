@@ -30,7 +30,7 @@ Users should be able to:
 ![My Solution](./design/Solution.png)
 
 ### Links
-- Live Site : [Live Site](https://your-live-site-url.com)
+- Live Site : [Live Site](https://devjhex-results-summary.netlify.app)
 
 ## My process
 
