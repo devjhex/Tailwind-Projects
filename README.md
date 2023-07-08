@@ -27,6 +27,8 @@ The challenge was that for all the projects that I built with CSS, I should repe
 - [Order-Summary-Component](https://devjhex-order-summary.netlify.app/)
 - [Product-Preview-Card-Component](https://devjhex-product-component.netlify.app/)
 - [Profile-Card-Component](https://devjhex-profile-component.netlify.app/)
+- [QR-Code-Component](https://devjhex-qr-component.netlify.app/)
+- [Results-Summary-Component](https://devjhex-results-summary.netlify.app/)
 
 ## My process
 
