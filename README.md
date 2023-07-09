@@ -29,6 +29,7 @@ The challenge was that for all the projects that I built with CSS, I should repe
 - [Profile-Card-Component](https://devjhex-profile-component.netlify.app/)
 - [QR-Code-Component](https://devjhex-qr-component.netlify.app/)
 - [Results-Summary-Component](https://devjhex-results-summary.netlify.app/)
+- [Single-Price-Grid-Component](https://devjhex-single-price-grid.netlify.app/)
 
 ## My process
 
