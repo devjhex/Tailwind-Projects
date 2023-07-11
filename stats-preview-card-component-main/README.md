@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://devjhex-stats-preview-card.netlify.app/)
 
 ## My process
 
