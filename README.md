@@ -30,7 +30,8 @@ The challenge was that for all the projects that I built with CSS, I should repe
 - [QR-Code-Component](https://devjhex-qr-component.netlify.app/)
 - [Results-Summary-Component](https://devjhex-results-summary.netlify.app/)
 - [Single-Price-Grid-Component](https://devjhex-single-price-grid.netlify.app/)
--[Social-Proof-Section](https://devjhex-social-proof-section.netlify.app/)
+- [Social-Proof-Section](https://devjhex-social-proof-section.netlify.app/)
+- [Stats-Preview-Card-Component](https://devjhex-social-proof-section.netlify.app/)
 
 ## My process
 
