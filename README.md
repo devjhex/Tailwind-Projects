@@ -31,7 +31,7 @@ The challenge was that for all the projects that I built with CSS, I should repe
 - [Results-Summary-Component](https://devjhex-results-summary.netlify.app/)
 - [Single-Price-Grid-Component](https://devjhex-single-price-grid.netlify.app/)
 - [Social-Proof-Section](https://devjhex-social-proof-section.netlify.app/)
-- [Stats-Preview-Card-Component](https://devjhex-social-proof-section.netlify.app/)
+- [Stats-Preview-Card-Component](https://devjhex-stats-preview-card.netlify.app/)
 
 ## My process
 
